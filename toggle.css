@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    }
+    .sign {
+    margin: auto;
+    background-color: black;
+    margin-top: 60px;
+    width: 30vw;
+    height: 400px;
+    color: white;
+    padding-right: 30px;
+    border-radius: 20px}
+    
+    .h-sign {
+    text-align: center;
+    padding-top: 15px}
+    
+    input {
+    margin-left: 30px;
+    width: 20vw;
+    height:20px;
+    margin-top: 20px;}
+    .buton {
+    width: 15vw;
+    height: 30px;
+    background-color: red;
+    margin-left: 25%;
+    border: none;
+    margin-top: 20px;
+    font-weight: bold;
+    }
+    label {
+    margin-left: 8px}
+    .em {
+    margin-left: 4vw}
+    .ps {
+    margin-left: 30px}

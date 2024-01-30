@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- link to bootstrap -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<!-- link to bootstrap library -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+	<!-- link to custom css -->
+	<link rel="stylesheet" type="text/css" href="toggle.css">
+	<title>Toggle_password</title>
+</head>
+<body>
+	<form action="post" class="sign">
+		<h2 class="h-sign">SIGN UP</h2>
+		<label for="first_name">First Name</label>
+			<input type="text" name="first_name">
+		
+		<br>
+		<label for="last_name">Last Name:</label>
+			<input type="text" name="last_name">
+		
+		<br>
+		<label for="email">Email:</label>
+		<input type="email" name="email" class="em">
+		<br>
+		<label for="password">Password:</label>
+		<input type="password" name="password" class="ps">
+		<i class="bi bi-eye-slash" id="togglePassword"></i>
+		 <br>
+		<button type="submit" class="buton">SUBMIT</button>
+		<script type="text/javascript" src="toggle_script.js"></script>
+	</form>
+</body>
+</html>
